@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas Taller</title>
+  <link rel="shortcut icon" href="ToolAdmin3.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body background="fondo1.jpg">
+  <div style="margin-top: 2%; margin-right: 5%; margin-left: 5%; margin-bottom: 2%; width: 90%;">
+    <div align="center" style="margin-bottom: 2%;">
+      <img src="ToolAdmin1.png" class="img-thumbnail" alt="Logo">
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: fit-content;">
+      <img class="finch-logo" src="ToolAdmin2.png" width="90">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Informacion de Herramientas
+          </a>
+          <div class="dropdown-menu">
+            <a href="mostrar_herramientas.php" target="frame" style="color: black;">Mostrar Herramientas</a><br>
+            <a href="insertar_herramientas.php" target="frame" style="color: black;">Insertar Herramientas</a><br>
+            <a href="actualizar_herramientas.php" target="frame" style="color: black;">Actualizar Herramientas</a><br>
+            <a href="eliminar_herramientas.php" target="frame" style="color: black;">Eliminar Herramientas</a><br>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Informacion de Sitios de almacenamiento
+          </a>
+          <div class="dropdown-menu">
+            <a href="mostrar_sitios.php" target="frame" style="color: black;">Mostrar Sitios</a><br>
+            <a href="insertar_sitios.php" target="frame" style="color: black;">Insertar Sitios</a><br>
+            <a href="actualizar_sitios.php" target="frame" style="color: black;">Actualizar Sitios</a><br>
+            <a href="eliminar_sitios.php" target="frame" style="color: black;">Eliminar Sitios</a><br>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Mostrar Herramientas y Sitios
+          </a>
+          <div class="dropdown-menu">
+            <a href="consulta_herramientas_sitios.php" target="frame" style="color: black;">Mostrar Todo</a><br>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Informes de Herramientas
+          </a>
+          <div class="dropdown-menu">
+            <a href="reporte_pdf.php" target="frame" style="color: black;">Reporte PDF</a><br>
+            <a href="descargacsv_herramientas.php" target="frame" style="color: black;">Reporte CSV</a><br>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Busqueda de Herramientas
+          </a>
+          <div class="dropdown-menu">
+            <a href="filtro_busqueda.php" target="frame" style="color: black;">Buscar Herramienta</a><br>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Ocio
+          </a>
+          <div class="dropdown-menu">
+            <a href="musica.php" target="frame" style="color: black;">Musica</a><br>
+            <a href="minijuego.php" target="frame" style="color: black;">Minijuego</a><br>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div style="background-color: #FFFFFF;margin: 2%; width: 96%; height: 500px; ">
+    <iframe name="frame" style="width: 100%; height: 100%;">
+      
+    </iframe>
+  </div>
+</body>
+</html>
